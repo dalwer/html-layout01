@@ -1,0 +1,100 @@
+*{margin:0;padding:0;}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* header area start */
+.logo{
+	width: 100%;
+	min-height: 100px;
+	background-color: #BEBEBE;
+	text-align: center;
+	margin-top: 20px;
+}
+.logo h2{
+	padding-top: 35px;
+}
+
+/* slider area start */
+.slider{
+	width: 100%;
+	min-height: 300px;
+	background-color: #BEBEBE;
+	text-align: center;
+	margin-top: 20px;
+}
+.slider h2{
+	padding-top: 150px;
+}
+
+/* Menu area start */
+.menu{
+	list-style: none;
+	margin: 20px 0;
+	overflow: hidden;
+}
+.menu li{
+	float: left;
+	background-color: #BEBEBE;
+	margin-right: 31px;
+}
+.menu li:last-child{
+	margin-right: 0;
+}
+.menu li a{
+	text-decoration: none;
+    display: block;
+    padding: 20px 105px;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+/* Content area start */
+.content_wrapper{
+	overflow: hidden;
+}
+.left_content{
+	width: 58%;
+	min-height: 500px;
+	background-color: #BEBEBE;
+	float: left;
+	text-align: center;
+}
+.left_content h2{
+	padding-top: 250px;
+}
+.right_content{
+	width: 39%;
+	min-height: 500px;
+	float: right;
+	text-align: center;
+}
+
+.right_content .link1{
+	min-height: 240px;
+	background-color: #BEBEBE;
+	margin-bottom: 20px;
+}
+.right_content .link1 h2{
+	padding-top: 110px;
+}
+.right_content .link2{
+	min-height: 240px;
+	background-color: #BEBEBE;
+}
+.right_content .link2 h2{
+	padding-top: 110px;
+}
+
+/* footer area start */
+.footer-area{
+	min-height: 100px;
+	background-color: #BEBEBE;
+	text-align: center;
+	margin-top: 20px;
+}
+.footer-area h2{
+	padding-top: 33px;
+}
